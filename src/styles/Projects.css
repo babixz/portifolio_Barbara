@@ -1,0 +1,49 @@
+.projects {
+  font-size: 35px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+  color: #5c215e;
+}
+
+.projects h1 {
+  font-size: 55px;
+}
+
+.projects .list {
+  list-style: none;
+  width: 60%;
+}
+
+.list span {
+  font-size: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+  .about h2 {
+    font-size: 40px;
+  }
+
+  .about .prompt {
+    margin-top: 10px;
+    font-size: 20px;
+    width: 80%;
+  }
+
+  .projects {
+    text-align: center;
+  }
+  .list {
+    padding: 0;
+  }
+
+  .projects h2 {
+    font-size: 30px;
+  }
+}
